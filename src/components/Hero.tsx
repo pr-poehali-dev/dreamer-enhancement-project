@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/60ab98f4-a7d6-4ea7-bdae-8b6539e22825/files/1ccf4fb6-a076-47f7-8f64-0255a9adb91b.jpg"
+          alt="Премиум здание"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ПРЕМИУМ АРЕНДА
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Представительные здания для бизнеса в лучших локациях города
         </p>
+        <button className="mt-8 border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+          Смотреть объекты
+        </button>
       </div>
     </div>
   );
